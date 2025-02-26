@@ -1,0 +1,115 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NailDiseaseSDK",
+    "printedName": "NailDiseaseSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TFLiteTest",
+        "printedName": "TFLiteTest",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "testPrint",
+            "printedName": "testPrint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NailDiseaseSDK10TFLiteTestC9testPrintyyFZ",
+            "mangledName": "$s14NailDiseaseSDK10TFLiteTestC9testPrintyyFZ",
+            "moduleName": "NailDiseaseSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TFLiteTest",
+                "printedName": "NailDiseaseSDK.TFLiteTest",
+                "usr": "s:14NailDiseaseSDK10TFLiteTestC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14NailDiseaseSDK10TFLiteTestCACycfc",
+            "mangledName": "$s14NailDiseaseSDK10TFLiteTestCACycfc",
+            "moduleName": "NailDiseaseSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14NailDiseaseSDK10TFLiteTestC",
+        "mangledName": "$s14NailDiseaseSDK10TFLiteTestC",
+        "moduleName": "NailDiseaseSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
