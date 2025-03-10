@@ -19,6 +19,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
         picker.sourceType = .photoLibrary
+        picker.allowsEditing = true // Enables cropping before selecting
         return picker
     }
 
@@ -32,8 +33,10 @@ struct ImagePicker: UIViewControllerRepresentable {
         }
 
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
-            if let uiImage = info[.originalImage] as? UIImage {
-                parent.image = uiImage
+            if let editedImage = info[.editedImage] as? UIImage {
+                parent.image = editedImage // Use cropped image if available
+            } else if let originalImage = info[.originalImage] as? UIImage {
+                parent.image = originalImage
             }
             picker.dismiss(animated: true)
         }
