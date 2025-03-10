@@ -12,48 +12,81 @@ struct ContentView: View {
     @StateObject private var modelHandler = TFLiteModelHandler(modelName: "model")
     @State private var inputImage: UIImage? = nil
     @State private var showingImagePicker = false
+    @State private var showingCameraPicker = false
     @State private var resultLabel: String = "No result yet"
+    @State private var isProcessing = false // Loading state
 
     var body: some View {
-        VStack {
-            // Show selected image or placeholder text
+        VStack(spacing: 20) {
+            // Image Preview
             if let image = inputImage {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 200)
+                    .frame(height: 250)
+                    .cornerRadius(12)
+                    .shadow(radius: 5)
+                    .padding()
             } else {
                 Text("No image selected")
                     .foregroundColor(.gray)
+                    .font(.headline)
             }
 
-            // Button to select an image
-            Button("Select Image") {
-                showingImagePicker = true
+            // Image Selection Buttons
+            HStack(spacing: 20) {
+                Button(action: {
+                    showingImagePicker = true
+                }) {
+                    Label("Choose from Gallery", systemImage: "photo")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+
+                Button(action: {
+                    showingCameraPicker = true
+                }) {
+                    Label("Capture Photo", systemImage: "camera")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
             }
             .padding()
-            .buttonStyle(.borderedProminent)
 
-            // Button to run inference
-            Button("Run Inference") {
+            // Run Inference Button
+            Button(action: {
                 if let image = inputImage {
                     runModelInference(image: image)
                 } else {
-                    resultLabel = "Please select an image first."
+                    resultLabel = "Please select or capture an image first."
                 }
+            }) {
+                Label("Run Analysis", systemImage: "bolt.fill")
+                    .frame(maxWidth: .infinity)
             }
-            .padding()
             .buttonStyle(.borderedProminent)
+            .padding()
+            .disabled(isProcessing) // Disable while processing
 
-            // Display inference result
-            Text("Inference Result: \(resultLabel)")
-                .padding()
-                .multilineTextAlignment(.center)
+            // Display Inference Result
+            if isProcessing {
+                ProgressView("Processing...") // Shows while running inference
+                    .padding()
+            } else {
+                Text("Result: \(resultLabel)")
+                    .font(.title2)
+                    .foregroundColor(.blue)
+                    .padding()
+            }
 
             Spacer()
         }
+        .padding()
         .sheet(isPresented: $showingImagePicker) {
             ImagePicker(image: $inputImage)
+        }
+        .sheet(isPresented: $showingCameraPicker) {
+            CameraPicker(image: $inputImage)
         }
     }
 
@@ -64,17 +97,16 @@ struct ContentView: View {
             return
         }
 
-        modelHandler.runInference(inputData: inputData)
+        isProcessing = true // Start loading
+        DispatchQueue.global(qos: .userInitiated).async {
+            modelHandler.runInference(inputData: inputData)
 
-        // Wait a bit for inference to complete
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            resultLabel = modelHandler.getInferenceLabel()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.resultLabel = modelHandler.getInferenceLabel()
+                self.isProcessing = false // Stop loading
+            }
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
 
 #Preview {
