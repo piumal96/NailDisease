@@ -1,0 +1,15 @@
+{
+  "originHash" : "3c8d48b6378feefaf3d765a94198578d3ad271e0a1d16045480a8cc049479284",
+  "pins" : [
+    {
+      "identity" : "naildiseasesdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/piumal96/NailDiseaseSDK-IOS",
+      "state" : {
+        "revision" : "1829d9637ac52a8cf9fe3a3fd7c705c492afd78c",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

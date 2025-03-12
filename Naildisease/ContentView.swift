@@ -9,7 +9,7 @@ import SwiftUI
 import NailDiseaseSDK
 
 struct ContentView: View {
-    @StateObject private var modelHandler = TFLiteModelHandler(modelName: "model")
+    @StateObject private var classifier = NailDiseaseClassifier()
     @State private var inputImage: UIImage? = nil
     @State private var showingImagePicker = false
     @State private var showingCameraPicker = false
@@ -56,7 +56,7 @@ struct ContentView: View {
             // Run Inference Button
             Button(action: {
                 if let image = inputImage {
-                    runModelInference(image: image)
+                    analyzeImage(image: image)
                 } else {
                     resultLabel = "Please select or capture an image first."
                 }
@@ -91,7 +91,7 @@ struct ContentView: View {
     }
 
     /// Runs the model inference on the selected image
-    private func runModelInference(image: UIImage) {
+    private func analyzeImage(image: UIImage) {
         guard let inputData = TFLiteImageProcessor.preprocessImage(image) else {
             resultLabel = "Image preprocessing failed."
             return
@@ -99,10 +99,10 @@ struct ContentView: View {
 
         isProcessing = true // Start loading
         DispatchQueue.global(qos: .userInitiated).async {
-            modelHandler.runInference(inputData: inputData)
+            classifier.analyzeNail(imageData: inputData)
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                self.resultLabel = modelHandler.getInferenceLabel()
+                self.resultLabel = classifier.getDiagnosis()
                 self.isProcessing = false // Stop loading
             }
         }
