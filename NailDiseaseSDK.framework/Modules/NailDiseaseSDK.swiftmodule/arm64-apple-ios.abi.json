@@ -6,520 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "TensorFlowLite",
-        "printedName": "TensorFlowLite",
-        "declKind": "Import",
-        "moduleName": "NailDiseaseSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NailDiseaseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "NailDiseaseSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TFLiteTest",
-        "printedName": "TFLiteTest",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "testPrint",
-            "printedName": "testPrint()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14NailDiseaseSDK10TFLiteTestC9testPrintyyFZ",
-            "mangledName": "$s14NailDiseaseSDK10TFLiteTestC9testPrintyyFZ",
-            "moduleName": "NailDiseaseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TFLiteTest",
-                "printedName": "NailDiseaseSDK.TFLiteTest",
-                "usr": "s:14NailDiseaseSDK10TFLiteTestC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14NailDiseaseSDK10TFLiteTestCACycfc",
-            "mangledName": "$s14NailDiseaseSDK10TFLiteTestCACycfc",
-            "moduleName": "NailDiseaseSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:14NailDiseaseSDK10TFLiteTestC",
-        "mangledName": "$s14NailDiseaseSDK10TFLiteTestC",
-        "moduleName": "NailDiseaseSDK",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TFLiteModelHandler",
-        "printedName": "TFLiteModelHandler",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "inferenceResult",
-            "printedName": "inferenceResult",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Float]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvp",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvp",
-            "moduleName": "NailDiseaseSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "ProjectedValueProperty",
-              "AccessControl",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.Float]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvg",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvg",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.Float]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvs",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvs",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvM",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15inferenceResultSaySfGvM",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$inferenceResult",
-            "printedName": "$inferenceResult",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvp",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvp",
-            "moduleName": "NailDiseaseSDK",
-            "implicit": true,
-            "isOpen": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvg",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvg",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvs",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_Gvs",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_GvM",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC16$inferenceResult7Combine9PublishedV9PublisherVySaySfG_GvM",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "isOpen": true,
-                "intro_Macosx": "11.0",
-                "intro_iOS": "14.0",
-                "intro_tvOS": "14.0",
-                "intro_watchOS": "7.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(modelName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TFLiteModelHandler",
-                "printedName": "NailDiseaseSDK.TFLiteModelHandler",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC9modelNameACSS_tcfc",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC9modelNameACSS_tcfc",
-            "moduleName": "NailDiseaseSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "frameworkBundle",
-            "printedName": "frameworkBundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15frameworkBundleSo8NSBundleCvp",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15frameworkBundleSo8NSBundleCvp",
-            "moduleName": "NailDiseaseSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC15frameworkBundleSo8NSBundleCvg",
-                "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC15frameworkBundleSo8NSBundleCvg",
-                "moduleName": "NailDiseaseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "runInference",
-            "printedName": "runInference(inputData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC12runInference9inputDatay10Foundation0J0V_tF",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC12runInference9inputDatay10Foundation0J0V_tF",
-            "moduleName": "NailDiseaseSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getInferenceLabel",
-            "printedName": "getInferenceLabel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC17getInferenceLabelSSyF",
-            "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC17getInferenceLabelSSyF",
-            "moduleName": "NailDiseaseSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:14NailDiseaseSDK18TFLiteModelHandlerC",
-        "mangledName": "$s14NailDiseaseSDK18TFLiteModelHandlerC",
-        "moduleName": "NailDiseaseSDK",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -703,6 +189,441 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NailDiseaseSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NailDiseaseClassifier",
+        "printedName": "NailDiseaseClassifier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "predictionScores",
+            "printedName": "predictionScores",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvp",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvp",
+            "moduleName": "NailDiseaseSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvg",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvg",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvs",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvs",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvM",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC16predictionScoresSaySfGvM",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$predictionScores",
+            "printedName": "$predictionScores",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvp",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvp",
+            "moduleName": "NailDiseaseSDK",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvg",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvg",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Float>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvs",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_Gvs",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_GvM",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC17$predictionScores7Combine9PublishedV9PublisherVySaySfG_GvM",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NailDiseaseClassifier",
+                "printedName": "NailDiseaseSDK.NailDiseaseClassifier",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierCACycfc",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierCACycfc",
+            "moduleName": "NailDiseaseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "frameworkBundle",
+            "printedName": "frameworkBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierC15frameworkBundleSo8NSBundleCvp",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC15frameworkBundleSo8NSBundleCvp",
+            "moduleName": "NailDiseaseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NailDiseaseSDK0aB10ClassifierC15frameworkBundleSo8NSBundleCvg",
+                "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC15frameworkBundleSo8NSBundleCvg",
+                "moduleName": "NailDiseaseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "analyzeNail",
+            "printedName": "analyzeNail(imageData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierC07analyzeA09imageDatay10Foundation0G0V_tF",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC07analyzeA09imageDatay10Foundation0G0V_tF",
+            "moduleName": "NailDiseaseSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDiagnosis",
+            "printedName": "getDiagnosis()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NailDiseaseSDK0aB10ClassifierC12getDiagnosisSSyF",
+            "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC12getDiagnosisSSyF",
+            "moduleName": "NailDiseaseSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14NailDiseaseSDK0aB10ClassifierC",
+        "mangledName": "$s14NailDiseaseSDK0aB10ClassifierC",
+        "moduleName": "NailDiseaseSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
           }
         ]
       },
@@ -1259,67 +1180,67 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/TFLiteModelHandler.swift",
-      "kind": "Array",
-      "offset": 390,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/TFLiteModelHandler.swift",
-      "kind": "Array",
-      "offset": 499,
-      "length": 157,
-      "value": "[\"Acral Lentiginous Melanoma\", \"Blue Finger\", \"Clubbing\", \"Healthy Nail\", \"Onychogryphosis\", \"Pitting\"]"
-    },
-    {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2205,
+      "offset": 2198,
       "length": 3,
       "value": "224"
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2218,
+      "offset": 2211,
       "length": 3,
       "value": "224"
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2252,
-      "length": 32,
-      "value": "\" ERROR: Failed to resize image\""
+      "offset": 2242,
+      "length": 35,
+      "value": "\"❌ ERROR: Failed to resize image\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2419,
-      "length": 36,
-      "value": "\" ERROR: Image preprocessing failed\""
+      "offset": 2400,
+      "length": 39,
+      "value": "\"❌ ERROR: Image preprocessing failed\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 2603,
+      "offset": 2575,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 3062,
       "length": 88,
       "value": "\"ℹ️ Preprocessed input data size: \""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/ImageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2715,
+      "offset": 3149,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/TFLiteModelHandler.swift",
+      "kind": "Array",
+      "offset": 258,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/ICBT\/Final_project\/SDK\/NailDiseaseSDK\/NailDiseaseSDK\/Sources\/Services\/TFLiteModelHandler.swift",
+      "kind": "Array",
+      "offset": 376,
+      "length": 157,
+      "value": "[\"Acral Lentiginous Melanoma\", \"Blue Finger\", \"Clubbing\", \"Healthy Nail\", \"Onychogryphosis\", \"Pitting\"]"
     }
   ]
 }
