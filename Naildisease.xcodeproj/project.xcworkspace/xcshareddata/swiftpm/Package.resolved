@@ -1,0 +1,15 @@
+{
+  "originHash" : "057336cd8c0e1a923fae789e45947fe876d6469efd60b767b9627ae4f7e0acd5",
+  "pins" : [
+    {
+      "identity" : "tensorflowlitec",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/piumal96/TensorFlowLiteC",
+      "state" : {
+        "revision" : "45bd8f8808eca9705b12855d9aced060fe5055fa",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

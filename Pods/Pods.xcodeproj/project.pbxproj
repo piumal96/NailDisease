@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682B9663004C8C19A56C705B4E9953ED /* Pods-NaildiseaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0261DE256911B54044F59AEE798FF6C1 /* Pods-NaildiseaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784E4ECF596E490E2FD1E312B0C40B0A /* Pods-Naildisease-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4025285833C8A1A2E3DDD2F4FE0C5 /* Pods-Naildisease-dummy.m */; };
+		851F1B0DCFE749C2B70BBA6049ABC314 /* Pods-Naildisease-NaildiseaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68BCEF5CAD58B758D893441CA8FEB94 /* Pods-Naildisease-NaildiseaseUITests-dummy.m */; };
+		8844A4F783FFA53350652067FA32E68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9446A416AD2EEADBDF614CE67E99B86C /* Pods-NaildiseaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB95BAACE05E521FE3081A2DE53FF7 /* Pods-NaildiseaseTests-dummy.m */; };
+		B95AA10303867A97B9B7634A6B9FF326 /* Pods-Naildisease-NaildiseaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C31CD51C95CBA0FAA0DAC01139DA26F /* Pods-Naildisease-NaildiseaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1DD30F54C95729AC4B85B5EDDC85C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C979766F6DA90B05D4B051FB6C2FEED2 /* Pods-Naildisease-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 689F0D03FC8DD0FB62856FB8E87F6121 /* Pods-Naildisease-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95E0EFE8259628183532A8797FBCB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6E531C221458939E56F895EDE473A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576900AA2B4AE56248A3AE0181DA3CE8;
+			remoteInfo = "Pods-Naildisease";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0261DE256911B54044F59AEE798FF6C1 /* Pods-NaildiseaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaildiseaseTests-umbrella.h"; sourceTree = "<group>"; };
+		06762A1DC424457A7816F8F28DA4F379 /* Pods-NaildiseaseTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaildiseaseTests-Info.plist"; sourceTree = "<group>"; };
+		0C31CD51C95CBA0FAA0DAC01139DA26F /* Pods-Naildisease-NaildiseaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naildisease-NaildiseaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NaildiseaseTests"; path = Pods_NaildiseaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E014532F68AE623D8A7DA30E262D68E /* Pods-Naildisease.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naildisease.modulemap"; sourceTree = "<group>"; };
+		2AC91998F827774BADF868F0234688EA /* Pods-NaildiseaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaildiseaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C93E3D99A81EEFC1ECA4595FE533E6A /* Pods-NaildiseaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaildiseaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ECB95BAACE05E521FE3081A2DE53FF7 /* Pods-NaildiseaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaildiseaseTests-dummy.m"; sourceTree = "<group>"; };
+		2FDFCA92A3A75C5C8DECE33119D45573 /* Pods-NaildiseaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaildiseaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4219A8B29C76AA141D2C004ACD170544 /* Pods-Naildisease-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-Info.plist"; sourceTree = "<group>"; };
+		4FB621F51189277C609E9918A5913DAF /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naildisease-NaildiseaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51F4025285833C8A1A2E3DDD2F4FE0C5 /* Pods-Naildisease-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Naildisease-dummy.m"; sourceTree = "<group>"; };
+		689F0D03FC8DD0FB62856FB8E87F6121 /* Pods-Naildisease-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naildisease-umbrella.h"; sourceTree = "<group>"; };
+		6F7587FCFF2B50E8F54C640D8EE63BEA /* Pods-Naildisease-NaildiseaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease-NaildiseaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D3905B4D5370F073719861474229EA /* Pods-Naildisease-NaildiseaseUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-NaildiseaseUITests-Info.plist"; sourceTree = "<group>"; };
+		81BB51F0E2016235BB01440FE5EBCF0C /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-NaildiseaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Naildisease-NaildiseaseUITests"; path = Pods_Naildisease_NaildiseaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D36AAB18F7C394DC922A72C73D0945 /* Pods-Naildisease-NaildiseaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease-NaildiseaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F086F2F2F2A0E43E17DCC3CE424E329 /* Pods-Naildisease-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naildisease-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A097D70E1B7AA0BA764BCC57C7A1B785 /* Pods-Naildisease.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease.release.xcconfig"; sourceTree = "<group>"; };
+		A61BA01B16DE4FE6E8D295ACDB7FD8F3 /* Pods-Naildisease.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease.debug.xcconfig"; sourceTree = "<group>"; };
+		C12A8D0F5EEE3E342111FC8D88CC99AE /* Pods-NaildiseaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaildiseaseTests.modulemap"; sourceTree = "<group>"; };
+		D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Naildisease"; path = Pods_Naildisease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F443418C29295E02649EAD81AEDB6E /* Pods-NaildiseaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaildiseaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7046015EA848A70A4AB39713A7B9CA8 /* Pods-Naildisease-NaildiseaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naildisease-NaildiseaseUITests.modulemap"; sourceTree = "<group>"; };
+		ED53FCC04DE0F3E1DA791266B7A0AD05 /* Pods-Naildisease-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-acknowledgements.plist"; sourceTree = "<group>"; };
+		F68BCEF5CAD58B758D893441CA8FEB94 /* Pods-Naildisease-NaildiseaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Naildisease-NaildiseaseUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F642BA2D6888101DCEAAC7A518EB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8844A4F783FFA53350652067FA32E68B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529159754AF351D0D289B784B80D85CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95E0EFE8259628183532A8797FBCB9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830B354A5551D3F1658A94D014275C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD30F54C95729AC4B85B5EDDC85C0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202D28F9B5D31959B1958EE081BDA450 /* Pods-NaildiseaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C12A8D0F5EEE3E342111FC8D88CC99AE /* Pods-NaildiseaseTests.modulemap */,
+				D6F443418C29295E02649EAD81AEDB6E /* Pods-NaildiseaseTests-acknowledgements.markdown */,
+				2FDFCA92A3A75C5C8DECE33119D45573 /* Pods-NaildiseaseTests-acknowledgements.plist */,
+				2ECB95BAACE05E521FE3081A2DE53FF7 /* Pods-NaildiseaseTests-dummy.m */,
+				06762A1DC424457A7816F8F28DA4F379 /* Pods-NaildiseaseTests-Info.plist */,
+				0261DE256911B54044F59AEE798FF6C1 /* Pods-NaildiseaseTests-umbrella.h */,
+				2C93E3D99A81EEFC1ECA4595FE533E6A /* Pods-NaildiseaseTests.debug.xcconfig */,
+				2AC91998F827774BADF868F0234688EA /* Pods-NaildiseaseTests.release.xcconfig */,
+			);
+			name = "Pods-NaildiseaseTests";
+			path = "Target Support Files/Pods-NaildiseaseTests";
+			sourceTree = "<group>";
+		};
+		2BAB9AD10540BB6378E117484F1FBC3F /* Pods-Naildisease-NaildiseaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7046015EA848A70A4AB39713A7B9CA8 /* Pods-Naildisease-NaildiseaseUITests.modulemap */,
+				4FB621F51189277C609E9918A5913DAF /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.markdown */,
+				81BB51F0E2016235BB01440FE5EBCF0C /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.plist */,
+				F68BCEF5CAD58B758D893441CA8FEB94 /* Pods-Naildisease-NaildiseaseUITests-dummy.m */,
+				70D3905B4D5370F073719861474229EA /* Pods-Naildisease-NaildiseaseUITests-Info.plist */,
+				0C31CD51C95CBA0FAA0DAC01139DA26F /* Pods-Naildisease-NaildiseaseUITests-umbrella.h */,
+				6F7587FCFF2B50E8F54C640D8EE63BEA /* Pods-Naildisease-NaildiseaseUITests.debug.xcconfig */,
+				97D36AAB18F7C394DC922A72C73D0945 /* Pods-Naildisease-NaildiseaseUITests.release.xcconfig */,
+			);
+			name = "Pods-Naildisease-NaildiseaseUITests";
+			path = "Target Support Files/Pods-Naildisease-NaildiseaseUITests";
+			sourceTree = "<group>";
+		};
+		3ACB62AC382F5DF85E79ED2878660F4E /* Pods-Naildisease */ = {
+			isa = PBXGroup;
+			children = (
+				1E014532F68AE623D8A7DA30E262D68E /* Pods-Naildisease.modulemap */,
+				9F086F2F2F2A0E43E17DCC3CE424E329 /* Pods-Naildisease-acknowledgements.markdown */,
+				ED53FCC04DE0F3E1DA791266B7A0AD05 /* Pods-Naildisease-acknowledgements.plist */,
+				51F4025285833C8A1A2E3DDD2F4FE0C5 /* Pods-Naildisease-dummy.m */,
+				4219A8B29C76AA141D2C004ACD170544 /* Pods-Naildisease-Info.plist */,
+				689F0D03FC8DD0FB62856FB8E87F6121 /* Pods-Naildisease-umbrella.h */,
+				A61BA01B16DE4FE6E8D295ACDB7FD8F3 /* Pods-Naildisease.debug.xcconfig */,
+				A097D70E1B7AA0BA764BCC57C7A1B785 /* Pods-Naildisease.release.xcconfig */,
+			);
+			name = "Pods-Naildisease";
+			path = "Target Support Files/Pods-Naildisease";
+			sourceTree = "<group>";
+		};
+		47735D568AD13DEFA6DD966E309340B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */,
+				9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */,
+				0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB144D10E255CF9E1D61E231CA867917 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACB62AC382F5DF85E79ED2878660F4E /* Pods-Naildisease */,
+				2BAB9AD10540BB6378E117484F1FBC3F /* Pods-Naildisease-NaildiseaseUITests */,
+				202D28F9B5D31959B1958EE081BDA450 /* Pods-NaildiseaseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47735D568AD13DEFA6DD966E309340B8 /* Products */,
+				AB144D10E255CF9E1D61E231CA867917 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43C7ADEC3089C14D0381D358AEC4BA6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682B9663004C8C19A56C705B4E9953ED /* Pods-NaildiseaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3D0252CAB53BB7F43F96851733604A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C979766F6DA90B05D4B051FB6C2FEED2 /* Pods-Naildisease-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749A8B98CAD537F5862F2D90A69942C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95AA10303867A97B9B7634A6B9FF326 /* Pods-Naildisease-NaildiseaseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C2312A89C81ACB31F807853E51059D4 /* Pods-NaildiseaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB845687FE206F82C35687E2D8D152D8 /* Build configuration list for PBXNativeTarget "Pods-NaildiseaseTests" */;
+			buildPhases = (
+				43C7ADEC3089C14D0381D358AEC4BA6B /* Headers */,
+				51086EC68E4A3BE0EBEC07D7CF08A0F2 /* Sources */,
+				04F642BA2D6888101DCEAAC7A518EB5C /* Frameworks */,
+				3EC59CE6153C33F3440D664227C6A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F02D3362E292DA5E380AB2120C678F /* PBXTargetDependency */,
+			);
+			name = "Pods-NaildiseaseTests";
+			productName = Pods_NaildiseaseTests;
+			productReference = 0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		576900AA2B4AE56248A3AE0181DA3CE8 /* Pods-Naildisease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F11BC3B0EC20C2CDF08FE7DF205D168 /* Build configuration list for PBXNativeTarget "Pods-Naildisease" */;
+			buildPhases = (
+				5B3D0252CAB53BB7F43F96851733604A /* Headers */,
+				BBB87201AFBE2965DC9524923E928CB2 /* Sources */,
+				529159754AF351D0D289B784B80D85CF /* Frameworks */,
+				394A099554B58DBA2FE5856366FC3B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Naildisease";
+			productName = Pods_Naildisease;
+			productReference = D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */;
+			productType = "com.apple.product-type.framework";
+		};
+		79682ADAA47CC1D427D5130446C5D2D8 /* Pods-Naildisease-NaildiseaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174C05ABD2F0C6BC163273F9446108B6 /* Build configuration list for PBXNativeTarget "Pods-Naildisease-NaildiseaseUITests" */;
+			buildPhases = (
+				749A8B98CAD537F5862F2D90A69942C8 /* Headers */,
+				AAEA5C78BA052611FD42DD923517BA01 /* Sources */,
+				7830B354A5551D3F1658A94D014275C2 /* Frameworks */,
+				32C9B3861A6D88D3456A788492F7E7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Naildisease-NaildiseaseUITests";
+			productName = Pods_Naildisease_NaildiseaseUITests;
+			productReference = 9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 47735D568AD13DEFA6DD966E309340B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				576900AA2B4AE56248A3AE0181DA3CE8 /* Pods-Naildisease */,
+				79682ADAA47CC1D427D5130446C5D2D8 /* Pods-Naildisease-NaildiseaseUITests */,
+				4C2312A89C81ACB31F807853E51059D4 /* Pods-NaildiseaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C9B3861A6D88D3456A788492F7E7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394A099554B58DBA2FE5856366FC3B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC59CE6153C33F3440D664227C6A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51086EC68E4A3BE0EBEC07D7CF08A0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446A416AD2EEADBDF614CE67E99B86C /* Pods-NaildiseaseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEA5C78BA052611FD42DD923517BA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851F1B0DCFE749C2B70BBA6049ABC314 /* Pods-Naildisease-NaildiseaseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB87201AFBE2965DC9524923E928CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784E4ECF596E490E2FD1E312B0C40B0A /* Pods-Naildisease-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F02D3362E292DA5E380AB2120C678F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Naildisease";
+			target = 576900AA2B4AE56248A3AE0181DA3CE8 /* Pods-Naildisease */;
+			targetProxy = 8C6E531C221458939E56F895EDE473A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		050B8BB50483564ED739E57338DEA6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7587FCFF2B50E8F54C640D8EE63BEA /* Pods-Naildisease-NaildiseaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Naildisease-NaildiseaseUITests/Pods-Naildisease-NaildiseaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naildisease-NaildiseaseUITests/Pods-Naildisease-NaildiseaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1763D01BCD8E6154260132354FFB9B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D36AAB18F7C394DC922A72C73D0945 /* Pods-Naildisease-NaildiseaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Naildisease-NaildiseaseUITests/Pods-Naildisease-NaildiseaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naildisease-NaildiseaseUITests/Pods-Naildisease-NaildiseaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		218108314EE0FC43D0B467F20F7C6111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A097D70E1B7AA0BA764BCC57C7A1B785 /* Pods-Naildisease.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Naildisease/Pods-Naildisease-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naildisease/Pods-Naildisease.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		531AB9B51913EE274022D67EB63CB4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6E623750E80086DE1E65E64C3FA20148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC91998F827774BADF868F0234688EA /* Pods-NaildiseaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NaildiseaseTests/Pods-NaildiseaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaildiseaseTests/Pods-NaildiseaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E39E17A31EB350A9066F06199C0457E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61BA01B16DE4FE6E8D295ACDB7FD8F3 /* Pods-Naildisease.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Naildisease/Pods-Naildisease-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naildisease/Pods-Naildisease.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E67C6541F07C4B06064E7308D0B3BEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C93E3D99A81EEFC1ECA4595FE533E6A /* Pods-NaildiseaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NaildiseaseTests/Pods-NaildiseaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaildiseaseTests/Pods-NaildiseaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174C05ABD2F0C6BC163273F9446108B6 /* Build configuration list for PBXNativeTarget "Pods-Naildisease-NaildiseaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050B8BB50483564ED739E57338DEA6AA /* Debug */,
+				1763D01BCD8E6154260132354FFB9B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */,
+				531AB9B51913EE274022D67EB63CB4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F11BC3B0EC20C2CDF08FE7DF205D168 /* Build configuration list for PBXNativeTarget "Pods-Naildisease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39E17A31EB350A9066F06199C0457E7 /* Debug */,
+				218108314EE0FC43D0B467F20F7C6111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB845687FE206F82C35687E2D8D152D8 /* Build configuration list for PBXNativeTarget "Pods-NaildiseaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67C6541F07C4B06064E7308D0B3BEFB /* Debug */,
+				6E623750E80086DE1E65E64C3FA20148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

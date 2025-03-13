@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-
+import NailDiseaseSDK
 @main
 struct NaildiseaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+            )
         }
     }
 }
