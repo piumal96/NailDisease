@@ -5,7 +5,6 @@
 //  Created by Piumal Kumara on 2025-03-10.
 //
 
-
 import SwiftUI
 import UIKit
 
@@ -20,7 +19,20 @@ struct CameraPicker: UIViewControllerRepresentable {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
         picker.sourceType = .camera
+        
+        // ✅ Ensure only a supported camera is used
+        if UIImagePickerController.isCameraDeviceAvailable(.rear) {
+            picker.cameraDevice = .rear // Use the standard back camera
+        } else {
+            picker.cameraDevice = .front // Fallback to front camera
+        }
+
         picker.allowsEditing = true
+
+        DispatchQueue.main.async {
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+        }
+
         return picker
     }
 
