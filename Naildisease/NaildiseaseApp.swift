@@ -7,12 +7,19 @@
 
 import SwiftUI
 import NailDiseaseSDK
+
 @main
 struct NaildiseaseApp: App {
+    @AppStorage("isOnboardingCompleted") private var isOnboardingCompleted: Bool = false
+    @State private var selectedTab: String = "Home"
+
     var body: some Scene {
         WindowGroup {
-            ContentView(
-            )
+            if isOnboardingCompleted {
+                ContentView() // Main App Content
+            } else {
+                OnBoardingView(isOnboarding: $isOnboardingCompleted, selectedTab: $selectedTab)
+            }
         }
     }
 }

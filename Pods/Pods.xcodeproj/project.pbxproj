@@ -3,19 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		682B9663004C8C19A56C705B4E9953ED /* Pods-NaildiseaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0261DE256911B54044F59AEE798FF6C1 /* Pods-NaildiseaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		784E4ECF596E490E2FD1E312B0C40B0A /* Pods-Naildisease-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4025285833C8A1A2E3DDD2F4FE0C5 /* Pods-Naildisease-dummy.m */; };
 		851F1B0DCFE749C2B70BBA6049ABC314 /* Pods-Naildisease-NaildiseaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68BCEF5CAD58B758D893441CA8FEB94 /* Pods-Naildisease-NaildiseaseUITests-dummy.m */; };
-		8844A4F783FFA53350652067FA32E68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		9446A416AD2EEADBDF614CE67E99B86C /* Pods-NaildiseaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB95BAACE05E521FE3081A2DE53FF7 /* Pods-NaildiseaseTests-dummy.m */; };
 		B95AA10303867A97B9B7634A6B9FF326 /* Pods-Naildisease-NaildiseaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C31CD51C95CBA0FAA0DAC01139DA26F /* Pods-Naildisease-NaildiseaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1DD30F54C95729AC4B85B5EDDC85C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C979766F6DA90B05D4B051FB6C2FEED2 /* Pods-Naildisease-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 689F0D03FC8DD0FB62856FB8E87F6121 /* Pods-Naildisease-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F95E0EFE8259628183532A8797FBCB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +29,12 @@
 		0261DE256911B54044F59AEE798FF6C1 /* Pods-NaildiseaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaildiseaseTests-umbrella.h"; sourceTree = "<group>"; };
 		06762A1DC424457A7816F8F28DA4F379 /* Pods-NaildiseaseTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaildiseaseTests-Info.plist"; sourceTree = "<group>"; };
 		0C31CD51C95CBA0FAA0DAC01139DA26F /* Pods-Naildisease-NaildiseaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naildisease-NaildiseaseUITests-umbrella.h"; sourceTree = "<group>"; };
-		0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NaildiseaseTests"; path = Pods_NaildiseaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods_NaildiseaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaildiseaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E014532F68AE623D8A7DA30E262D68E /* Pods-Naildisease.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naildisease.modulemap"; sourceTree = "<group>"; };
 		2AC91998F827774BADF868F0234688EA /* Pods-NaildiseaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaildiseaseTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C93E3D99A81EEFC1ECA4595FE533E6A /* Pods-NaildiseaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaildiseaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ECB95BAACE05E521FE3081A2DE53FF7 /* Pods-NaildiseaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaildiseaseTests-dummy.m"; sourceTree = "<group>"; };
 		2FDFCA92A3A75C5C8DECE33119D45573 /* Pods-NaildiseaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaildiseaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4219A8B29C76AA141D2C004ACD170544 /* Pods-Naildisease-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-Info.plist"; sourceTree = "<group>"; };
 		4FB621F51189277C609E9918A5913DAF /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naildisease-NaildiseaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51F4025285833C8A1A2E3DDD2F4FE0C5 /* Pods-Naildisease-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Naildisease-dummy.m"; sourceTree = "<group>"; };
@@ -46,14 +42,14 @@
 		6F7587FCFF2B50E8F54C640D8EE63BEA /* Pods-Naildisease-NaildiseaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease-NaildiseaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		70D3905B4D5370F073719861474229EA /* Pods-Naildisease-NaildiseaseUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-NaildiseaseUITests-Info.plist"; sourceTree = "<group>"; };
 		81BB51F0E2016235BB01440FE5EBCF0C /* Pods-Naildisease-NaildiseaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-NaildiseaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Naildisease-NaildiseaseUITests"; path = Pods_Naildisease_NaildiseaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9599EFF967BE0E11AF7512C224AC6E5E /* Pods_Naildisease_NaildiseaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naildisease_NaildiseaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D36AAB18F7C394DC922A72C73D0945 /* Pods-Naildisease-NaildiseaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease-NaildiseaseUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F086F2F2F2A0E43E17DCC3CE424E329 /* Pods-Naildisease-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naildisease-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A097D70E1B7AA0BA764BCC57C7A1B785 /* Pods-Naildisease.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease.release.xcconfig"; sourceTree = "<group>"; };
 		A61BA01B16DE4FE6E8D295ACDB7FD8F3 /* Pods-Naildisease.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naildisease.debug.xcconfig"; sourceTree = "<group>"; };
 		C12A8D0F5EEE3E342111FC8D88CC99AE /* Pods-NaildiseaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaildiseaseTests.modulemap"; sourceTree = "<group>"; };
-		D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Naildisease"; path = Pods_Naildisease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39EDAECA1FDA731A051B717D0E02D0B /* Pods_Naildisease.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naildisease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F443418C29295E02649EAD81AEDB6E /* Pods-NaildiseaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaildiseaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D7046015EA848A70A4AB39713A7B9CA8 /* Pods-Naildisease-NaildiseaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naildisease-NaildiseaseUITests.modulemap"; sourceTree = "<group>"; };
 		ED53FCC04DE0F3E1DA791266B7A0AD05 /* Pods-Naildisease-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naildisease-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -65,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8844A4F783FFA53350652067FA32E68B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95E0EFE8259628183532A8797FBCB9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DD30F54C95729AC4B85B5EDDC85C0E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +132,9 @@
 		47735D568AD13DEFA6DD966E309340B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */,
-				9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */,
-				0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */,
+				D39EDAECA1FDA731A051B717D0E02D0B /* Pods_Naildisease.framework */,
+				9599EFF967BE0E11AF7512C224AC6E5E /* Pods_Naildisease_NaildiseaseUITests.framework */,
+				0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods_NaildiseaseTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,7 +170,6 @@
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -228,7 +220,7 @@
 			);
 			name = "Pods-NaildiseaseTests";
 			productName = Pods_NaildiseaseTests;
-			productReference = 0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods-NaildiseaseTests */;
+			productReference = 0DE3FA5E6DAFC08AFCA3DA5ED2FB26EE /* Pods_NaildiseaseTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		576900AA2B4AE56248A3AE0181DA3CE8 /* Pods-Naildisease */ = {
@@ -246,7 +238,7 @@
 			);
 			name = "Pods-Naildisease";
 			productName = Pods_Naildisease;
-			productReference = D39EDAECA1FDA731A051B717D0E02D0B /* Pods-Naildisease */;
+			productReference = D39EDAECA1FDA731A051B717D0E02D0B /* Pods_Naildisease.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79682ADAA47CC1D427D5130446C5D2D8 /* Pods-Naildisease-NaildiseaseUITests */ = {
@@ -264,7 +256,7 @@
 			);
 			name = "Pods-Naildisease-NaildiseaseUITests";
 			productName = Pods_Naildisease_NaildiseaseUITests;
-			productReference = 9599EFF967BE0E11AF7512C224AC6E5E /* Pods-Naildisease-NaildiseaseUITests */;
+			productReference = 9599EFF967BE0E11AF7512C224AC6E5E /* Pods_Naildisease_NaildiseaseUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -285,8 +277,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 47735D568AD13DEFA6DD966E309340B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
